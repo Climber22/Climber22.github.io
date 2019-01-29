@@ -1,0 +1,19 @@
+{
+  "name": "climber22.github.io",
+  "version": "1.0.0",
+  "description": "The portfolio page of Shohei Ihaya",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Climber22/Climber22.github.io.git"
+  },
+  "author": "Shohei Ihaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Climber22/Climber22.github.io/issues"
+  },
+  "homepage": "https://github.com/Climber22/Climber22.github.io#readme"
+}
