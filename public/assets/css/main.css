@@ -1,5 +1,27 @@
+.header {
+    height: 5vh;
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 100%;
+    margin: 0 30vw !important;
+}
+
+.headerLink {
+    line-height: 5vh;
+    color: white;
+    margin-right: 20px;
+}
+
+.headerLink:hover {
+    color: gray;
+}
+
 .topImage {
-    background-image: url('../top.jpg');
+    background-image: url('../images/top.jpg');
     background-size: 100% auto;
     height: 50vh;
 }
@@ -12,4 +34,17 @@
 .subMessage {
     font-size: 3vh !important;
     color: white !important;
+}
+
+.segmentTitle {
+    font-size: 3vh !important;
+}
+
+.segment {
+    margin: 3vw 30vw !important;
+}
+
+.image {
+    width: 25vh;
+    margin: 0 auto;
 }
