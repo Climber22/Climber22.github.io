@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 import { Grid, Header } from "semantic-ui-react";
 // styles
 import styles from "../../public/assets/css/main.css";
+
 export default function Top(props) {
-  console.log(styles);
   return (
     <Grid className={styles.topImage} verticalAlign="middle">
       <Grid.Column>
