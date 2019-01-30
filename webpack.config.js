@@ -43,7 +43,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: "eslint-loader"
       },
-      { test: /\.jpg$/, loader: "file-loader?name=[path][name].[ext]" },
+      { test: /\.(png|jpg)$/, loader: "file-loader?name=[path][name].[ext]" },
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader?modules"]
