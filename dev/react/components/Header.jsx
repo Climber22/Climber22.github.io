@@ -17,7 +17,7 @@ export default function Header(props) {
       className={styles.header}
     >
       <div className={styles.headerWrapper}>
-        <Menu.Item as={Links} src="#intro" color="white">
+        <Menu.Item as={Links} src="#intro">
           About me
         </Menu.Item>
         <Menu.Item as={Links} src="#skills">
