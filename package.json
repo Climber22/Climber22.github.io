@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve-dev": "./node_modules/.bin/webpack-dev-server --inline --hot --port=8081 --content-base ./ --open-page index.html",
-    "build": "./node_modules/.bin/webpack"
+    "serve-dev": "./node_modules/.bin/webpack-dev-server --inline --hot --port=8081 --open-page index.html",
+    "build-dev": "./node_modules/.bin/webpack",
+    "build-prd": "./node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",
@@ -31,7 +32,9 @@
     "eslint-loader": "^2.1.1",
     "eslint-plugin-react": "^7.12.4",
     "file-loader": "^3.0.1",
-    "style-loader": "^0.23.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "url-loader": "^1.1.2",
     "webpack": "^4.29.0",
     "webpack-dev-server": "^3.1.14"
   },
