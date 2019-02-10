@@ -5,7 +5,10 @@ import React from "react";
 import { Segment, Header, Image, Grid } from "semantic-ui-react";
 
 // styles
-import styles from "../../public/assets/css/main.css";
+import styles from "main.css";
+
+// images
+import blockchain from "blockchain.jpg";
 
 export default function Interests(props) {
   return (
@@ -25,10 +28,7 @@ export default function Interests(props) {
           </p>
         </Grid.Column>
         <Grid.Column>
-          <Image
-            className={styles.image}
-            src="../../public/assets/images/blockchain.jpg"
-          />
+          <Image className={styles.image} src={blockchain} />
         </Grid.Column>
       </Grid>
     </Segment>

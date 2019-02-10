@@ -5,7 +5,10 @@ import React from "react";
 import { Segment, Header, Image } from "semantic-ui-react";
 
 // styles
-import styles from "../../public/assets/css/main.css";
+import styles from "main.css";
+
+// images
+import skills from "skills.png";
 
 export default function Skills(props) {
   return (
@@ -16,7 +19,7 @@ export default function Skills(props) {
         content="Skills"
         className={styles.segmentTitle}
       />
-      <Image src="../../public/assets/images/skills.png" />
+      <Image src={skills} />
     </Segment>
   );
 }

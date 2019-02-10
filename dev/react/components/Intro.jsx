@@ -5,7 +5,10 @@ import React from "react";
 import { Segment, Header, Image, Grid } from "semantic-ui-react";
 
 // styles
-import styles from "../../public/assets/css/main.css";
+import styles from "main.css";
+
+// images
+import avater from "avater.png";
 
 export default function Intro(props) {
   return (
@@ -18,10 +21,7 @@ export default function Intro(props) {
       />
       <Grid columns={2} verticalAlign="middle">
         <Grid.Column>
-          <Image
-            src="../../public/assets/images/avater.png"
-            className={styles.image}
-          />
+          <Image src={avater} className={styles.image} />
         </Grid.Column>
         <Grid.Column>
           <p>

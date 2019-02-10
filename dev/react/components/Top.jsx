@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 // components
 import { Grid, Header } from "semantic-ui-react";
 // styles
-import styles from "../../public/assets/css/main.css";
+import styles from "../../assets/css/main.css";
 
 export default function Top(props) {
   return (
